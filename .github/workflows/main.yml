@@ -21,3 +21,4 @@ jobs:
         username: ${{ secrets.lojasfacell_ftp_user }}
         password: ${{ secrets.lojasfacell_ftp_pass }}
         local-dir: 'dist/'
+        server-dir: '/'
